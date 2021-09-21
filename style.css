@@ -1,0 +1,9 @@
+#wrapper .list-group               { margin-top: 5px; }
+#wrapper .list-group-item          { margin-bottom: 3px; background-color: rgba(0,0,0,0.05); position: relative; }
+#wrapper .list-group-item:hover > div > .btn-wrapper{ display: block; }
+#wrapper .btn-wrapper              { position: absolute; right: 0; top: 0; display: none; }
+#wrapper .btn-wrapper button       { opacity: 0.7; font-size: 12px; margin-right: 0.25rem; padding: 0.25rem 0.25rem; }
+#wrapper .btn-wrapper button i     { font-size: 12px; }
+#wrapper .btn-wrapper button:hover { opacity: 1; }
+
+#clone-wrapper{ display: none; }
